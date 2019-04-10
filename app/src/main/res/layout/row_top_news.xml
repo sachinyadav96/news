@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ImgVideoThumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+
+                <ImageView
+                    android:id="@+id/img_view_item_main_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="?attr/selectableItemBackground"
+                    android:paddingStart="20dp"
+                    android:paddingTop="1dp"
+                    android:paddingEnd="10dp"
+                    android:paddingBottom="10dp"
+                    android:scaleType="fitXY" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:background="@color/tab_color"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/ic_remove_red_eye_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/txt_view_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginStart="2dp"
+                        android:text="2700"
+                        android:textColor="@color/white"
+                        android:textSize="8.3sp"
+                        tools:ignore="SmallSp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/ic_mode_comment_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/txt_msg_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginStart="2dp"
+                        android:text="327"
+                        android:textColor="@color/white"
+                        android:textSize="8.3sp"
+                        tools:ignore="SmallSp" />
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginStart="5dp"
+                        android:background="@drawable/ic_grade_black_24dp" />
+
+                    <TextView
+                        android:id="@+id/txt_likes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_horizontal"
+                        android:layout_marginStart="2dp"
+                        android:text="1324"
+                        android:textColor="@color/white"
+                        android:textSize="8.3sp"
+                        tools:ignore="SmallSp" />
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/txt_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start|center_horizontal"
+                android:layout_marginStart="10dp"
+                android:letterSpacing="0.04"
+                android:maxLines="3"
+                android:minLines="1"
+                android:padding="5dp"
+                android:text="Learn How to Travel Safety"
+                android:textColor="@color/top_trending_color"
+                android:textSize="13.3sp"
+                tools:ignore="UnusedAttribute" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/txt_channelTym"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="150dp"
+                    android:letterSpacing="0.04"
+                    android:lineSpacingExtra="-3.3sp"
+                    android:paddingStart="5dp"
+                    android:text="Date : 1 day ago"
+                    android:textColor="@color/grey"
+                    android:textSize="13.3sp"
+                    tools:ignore="RtlSymmetry,UnusedAttribute" />
+
+                <TextView
+                    android:id="@+id/txt_Channel_ownerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start|center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:letterSpacing="0.04"
+                    android:paddingStart="5dp"
+                    android:text="Uploaded By: Sachin yadav "
+                    android:textColor="@color/top_trending_color"
+                    android:textSize="15.3sp"
+                    tools:ignore="RtlSymmetry"
+                    tools:targetApi="lollipop" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

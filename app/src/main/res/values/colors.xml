@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f59430</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#e91f6f</color>
+
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff4c4c</color>
+    <color name="header">#9ECB3A</color>
+    <color name="blue">#00b0e1</color>
+    <color name="bluetags">#1058ff</color>
+    <color name="textDarkColor">#9fa2a4</color>
+    <color name="TRANSPARENT">#00ffffff</color>
+    <color name="grey">#b7b7b7</color>
+    <color name="lineColor">#d2d7d9</color>
+    <color name="tabColor">#e9206e</color>
+    <color name="tab_color">#90000000</color>
+    <color name="see_all_color">#da2624</color>
+    <color name="top_trending_color">#535353</color>
+    <color name="Switch">#ec93ca9e</color>
+    <color name="SwitchGray">#b3b3b3</color>
+    <color name="darkgray">#b3b3b3</color>
+    <color name="add_details_header">#1c1c1c</color>
+    <color name="chat_bg">#24f48f32</color>
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#838080</color>
+    <color name="dot_dark_screen2">#838080</color>
+    <color name="dot_dark_screen3">#838080</color>
+    <color name="dot_dark_screen4">#838080</color>
+    <color name="dot_dark_screen5">#838080</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#e91f6f</color>
+    <color name="dot_light_screen2">#e91f6f</color>
+    <color name="dot_light_screen3">#e91f6f</color>
+    <color name="dot_light_screen4">#e91f6f</color>
+    <color name="dot_light_screen5">#e91f6f</color>
+
+    <color name="spark_primary_color">#FFFFC107</color>
+    <color name="spark_secondary_color">#FFFF5722</color>
+    <color name="spark_image_tint">#00000000</color>
+
+
+    <color name="default_playback_background">#3D000000</color>
+
+    <color name="rate1">#fdb900</color>
+    <color name="rate2">#fdc700</color>
+    <color name="rate3">#fdd55d</color>
+    <color name="rate4">#fee396</color>
+    <color name="rate5">#f8e5b3</color>
+    <color name="rate6">#bae6de</color>
+    <color name="rate7">#99ddd0</color>
+    <color name="rate8">#67ccba</color>
+    <color name="rate9">#35bba2</color>
+    <color name="rate10">#09ab8c</color>
+    <color name="textColor">#817979</color>
+    <color name="UnselectedColor">#616161</color>
+    <color name="skip">#60DADADA</color>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.c.news.coustom.AdvanceDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    tools:openDrawer="start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+            <RelativeLayout
+                android:id="@+id/rlHeader"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:background="@color/white"
+                android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/colorAccent"
+                    android:layout_centerInParent="true"
+                    android:text="Home" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_menu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="-5dp">
+
+                        <ImageView
+                            android:id="@+id/menu"
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_margin="10dp"
+                            android:background="?attr/selectableItemBackground"
+                            android:src="@drawable/ic_menu_black_24dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerViewPromation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/rlHeader"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            tools:layoutManager="GridLayoutManager"
+            tools:spanCount="10" />
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view_notification"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="false">
+
+        <RelativeLayout
+            android:id="@+id/ll_drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:background="@drawable/grad_side_menu"
+            android:orientation="vertical">
+
+            <include layout="@layout/slidermenu" />
+
+        </RelativeLayout>
+
+    </android.support.design.widget.NavigationView>
+
+</com.c.news.coustom.AdvanceDrawerLayout>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_side_menu"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="7dp">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.04"
+                android:singleLine="true"
+                android:text="Sachin yadav"
+                android:textColor="@color/white"
+                android:textSize="15.3sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:background="?attr/selectableItemBackground"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.04"
+                android:singleLine="true"
+                android:text="Mira Road"
+                android:textColor="@color/white"
+                android:textSize="15.3sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Advertise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="News List"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Category "
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Settings"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Favouriate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Favourite News"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_WatchLater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="WatchLater"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_Offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="Offline Saved News"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:text="About App"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_LogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/txt_LogOut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:letterSpacing="0.04"
+            android:padding="5dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="Exit"
+            android:textColor="@color/white"
+            android:textSize="16.5sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_NoArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="7dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:fontFamily="sans-serif"
+                android:letterSpacing="0.04"
+                android:padding="5dp"
+                android:text=""
+                android:textColor="#8c8c8c"
+                android:textSize="16.3sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
